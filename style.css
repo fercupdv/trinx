@@ -19,23 +19,23 @@ body[data-artista="home"] {
 }
 
 body[data-artista="nujabes"] {
-    background-color: #1b2416; /* Verde bosque */
-    color: #f4ebd9;            /* Beige */
+    background-color: #1b2416; 
+    color: #f4ebd9;            
 }
 
 body[data-artista="dr-doom"] {
-    background-color: #1a1c19; /* Verde rústico oscuro */
-    color: #cbd5e1;            /* Gris máscara */
+    background-color: #1a1c19; 
+    color: #cbd5e1;            
 }
 
 body[data-artista="juice-wrld"] {
-    background-color: #0d0214; /* Púrpura oscuro */
-    color: #e0aaff;            /* Neón pastel */
+    background-color: #0d0214; 
+    color: #e0aaff;            
 }
 
 body[data-artista="lil-uzi"] {
-    background-color: #111111; /* Negro espacial */
-    color: #ff007f;            /* Rosa Cyberpunk */
+    background-color: #111111; 
+    color: #ff007f;            
 }
 
 /* --- DISEÑO MINIMALISTA --- */
@@ -46,7 +46,17 @@ body[data-artista="lil-uzi"] {
 
 .hero {
     text-align: center;
-    padding: 5rem 0;
+    padding: 3rem 0;
+}
+
+/* Estilo para las imágenes integradas */
+.artist-img {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    margin-bottom: 2rem;
+    filter: grayscale(20%) contrast(110%);
+    border: 1px solid currentColor;
 }
 
 .hero h1 {
@@ -114,6 +124,7 @@ h2 {
     text-decoration: none;
     font-size: 0.9rem;
     border-bottom: 1px solid transparent;
+    z-index: 10;
 }
 
 .btn-back:hover {
