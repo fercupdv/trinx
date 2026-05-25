@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juice WRLD | Portal de Artistas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-artista="juice-wrld">
+
+    <a href="index.html" class="btn-back">← Volver al Menú</a>
+
+    <main class="artist-container">
+        <section class="hero">
+            <h1>JUICE WRLD</h1>
+            <p class="subtitle">Leyenda del Emo Rap y la cultura del "999".</p>
+        </section>
+
+        <section class="bio section-card">
+            <h2>999 Forever</h2>
+            <p>Jarad Anthony Higgins fue un pilar fundamental en la fusión del rap melódico, el trap y el pop-punk. Su habilidad innata para improvisar canciones completas durante horas marcó a toda una generación.</p>
+        </section>
+
+        <section class="albums section-card">
+            <h2>Proyectos de Culto</h2>
+            <div class="album-list">
+                <div class="album-item" onclick="mostrarInfo('Goodbye & Good Riddance (2018)')">Goodbye & Good Riddance</div>
+                <div class="album-item" onclick="mostrarInfo('Death Race for Love (2019)')">Death Race for Love</div>
+                <div class="album-item" onclick="mostrarInfo('Legends Never Die (2020)')">Legends Never Die</div>
+            </div>
+            <div id="album-display" class="mini-display">Pulsa un álbum para liberar las melodías...</div>
+        </section>
+
+        <section class="facts section-card">
+            <h2>Detrás de las Letras</h2>
+            <ul>
+                <li>Su famoso número "999" representaba tomar cualquier situación negativa o dolor (el 666 invertido) y transformarlo en algo positivo.</li>
+                <li>Hizo un legendario freestyle de una hora completa sobre instrumentales de Eminem en la estación de radio Westwood One.</li>
+            </ul>
+        </section>
+
+        <section class="links section-card">
+            <h2>Transmisión Digital</h2>
+            <div class="music-links">
+                <a href="https://spotify.com" target="_blank" class="music-btn">Spotify</a>
+                <a href="https://soundcloud.com" target="_blank" class="music-btn">SoundCloud</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

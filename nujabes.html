@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nujabes | Portal de Artistas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-artista="nujabes">
+
+    <a href="index.html" class="btn-back">← Volver al Menú</a>
+
+    <main class="artist-container">
+        <section class="hero">
+            <h1>NUJABES</h1>
+            <p class="subtitle">El arquitecto del Lo-Fi y el Jazz-Hop.</p>
+        </section>
+
+        <section class="bio section-card">
+            <h2>Biografía</h2>
+            <p>Jun Seba fue un productor musical y DJ japonés, pionero en mezclar muestras de jazz con ritmos de hip-hop, creando una atmósfera espiritual y nostálgica única.</p>
+        </section>
+
+        <section class="albums section-card">
+            <h2>Álbumes Destacados</h2>
+            <div class="album-list">
+                <div class="album-item" onclick="mostrarInfo('Metaphorical Music (2003)')">Metaphorical Music</div>
+                <div class="album-item" onclick="mostrarInfo('Modal Soul (2005)')">Modal Soul</div>
+                <div class="album-item" onclick="mostrarInfo('Samurai Champloo OST (2004)')">Samurai Champloo OST</div>
+            </div>
+            <div id="album-display" class="mini-display">Haz clic en un álbum para ver detalles.</div>
+        </section>
+
+        <section class="facts section-card">
+            <h2>Datos Curiosos</h2>
+            <ul>
+                <li>Nació el mismo día que J Dilla (7 de febrero de 1974).</li>
+                <li>Su nombre artístico "Nujabes" es su nombre real escrito al revés (Seba Jun).</li>
+            </ul>
+        </section>
+
+        <section class="links section-card">
+            <h2>Escucha su Música</h2>
+            <div class="music-links">
+                <a href="https://spotify.com" target="_blank" class="music-btn">Spotify</a>
+                <a href="https://youtube.com" target="_blank" class="music-btn">YouTube</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
