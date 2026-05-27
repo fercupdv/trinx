@@ -17,20 +17,20 @@ body {
 
 
 body[data-artista="home"] {
-    background-color: #483f4d;
+    background-color:#6b6070;
     color: #ffffff;
     --banner-color: linear-gradient(45deg, #111, #222);
 }
 
 body[data-artista="nujabes"] {
-    background-color: #1b2416; /* Verde Bosque Zen */
-    color: #f4ebd9;            /* Beige Arena */
+    background-color: #1b2416;
+    color: #f4ebd9;          
     --banner-color: linear-gradient(135deg, #2d3f24, #1b2416);
 }
 
 body[data-artista="dr-doom"] {
-    background-color: #1a1c19; /* Gris/Verde Industrial */
-    color: #cbd5e1;            /* Platino Máscara */
+    background-color: #1a1c19; 
+    color: #cbd5e1;            
     --banner-color: linear-gradient(90deg, #2e332d, #1a1c19);
 }
 
