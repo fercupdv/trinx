@@ -17,7 +17,7 @@ body {
 
 
 body[data-artista="home"] {
-    background-color:#6b6070;
+    background-color:##5b5061;
     color: #ffffff;
     --banner-color: linear-gradient(45deg, #111, #222);
 }
@@ -35,14 +35,14 @@ body[data-artista="dr-doom"] {
 }
 
 body[data-artista="juice-wrld"] {
-    background-color: #0d0214; /* Púrpura Melancolía */
-    color: #e0aaff;            /* Neón Pastel */
+    background-color: #0d0214; 
+    color: #e0aaff;            
     --banner-color: linear-gradient(180deg, #240046, #0d0214);
 }
 
 body[data-artista="lil-uzi"] {
-    background-color: #111111; /* Negro Espacial */
-    color: #ff007f;            /* Rosa Cyberpunk */
+    background-color: #111111; 
+    color: #ff007f;            
     --banner-color: linear-gradient(45deg, #ff007f, #111111);
 }
 
@@ -58,7 +58,7 @@ body[data-artista="lil-uzi"] {
     padding: 3rem 0;
 }
 
-/* Banner de respaldo que reemplaza las imágenes rotas */
+
 .artist-img {
     width: 100%;
     height: 200px;
