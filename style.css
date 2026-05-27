@@ -17,7 +17,7 @@ body {
 
 
 body[data-artista="home"] {
-    background-color: #0a0a0a;
+    background-color: #483f4d;
     color: #ffffff;
     --banner-color: linear-gradient(45deg, #111, #222);
 }
