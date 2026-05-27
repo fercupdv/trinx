@@ -1,4 +1,3 @@
-// Función para actualizar dinámicamente el bloque de álbumes
 function mostrarInfo(albumNombre) {
     const display = document.getElementById('album-display');
     
@@ -12,7 +11,6 @@ function mostrarInfo(albumNombre) {
     }
 }
 
-// Efecto interactivo de espaciado en el título al hacer scroll
 window.addEventListener('scroll', () => {
     const heroH1 = document.querySelector('.hero h1');
     if (heroH1) {
