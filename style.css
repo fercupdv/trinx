@@ -1,6 +1,4 @@
-/* ==========================================================================
-   1. RESETEO Y TIPOGRAFÍA GLOBAL
-   ========================================================================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -17,9 +15,7 @@ body {
     align-items: center;
 }
 
-/* ==========================================================================
-   2. CONFIGURACIÓN DE IDENTIDADES (COLORES Y ATMÓSFERAS)
-   ========================================================================== */
+
 body[data-artista="home"] {
     background-color: #0a0a0a;
     color: #ffffff;
@@ -50,9 +46,7 @@ body[data-artista="lil-uzi"] {
     --banner-color: linear-gradient(45deg, #ff007f, #111111);
 }
 
-/* ==========================================================================
-   3. ESTRUCTURA Y COMPONENTES MINIMALISTAS
-   ========================================================================== */
+
 .artist-container {
     width: 100%;
     max-width: 750px;
@@ -98,9 +92,7 @@ h2 {
     letter-spacing: 2px;
 }
 
-/* ==========================================================================
-   4. BOTONES, ENLACES E INTERACTIVIDAD
-   ========================================================================== */
+
 .album-list, .music-links {
     display: flex;
     gap: 1rem;
